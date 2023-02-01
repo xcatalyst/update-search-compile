@@ -31,7 +31,7 @@ the first time.
 ;; Set a key for update-ctags
 (global-set-key (kbd "<your_prefered_key_binding>") 'update-ctags)
 
-;; You can also execute the function when saving a file with the following::
+;; You can also execute the function when saving a file with the following:
 (add-hook 'after-save-hook 'update-ctags)
 
 ;; Search and compile
